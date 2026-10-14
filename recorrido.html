@@ -1,4 +1,95 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#160d25"><meta name="description" content="Línea temporal interactiva de la formación, experiencia Scout, proyectos personales y próximos pasos de Ruth Sainz."><meta property="og:type" content="website"><meta property="og:title" content="Mi recorrido | Ruth Sainz"><meta property="og:description" content="Línea temporal interactiva de la formación, experiencia Scout, proyectos personales y próximos pasos de Ruth Sainz."><meta property="og:image" content="https://rutsaisan.github.io/Mi-PaginaWeb/img/og-preview.png"><title>Mi recorrido | Ruth Sainz</title><link rel="icon" href="img/favicon.png" type="image/png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><header class="topbar"><a class="brand" href="index.html#inicio" aria-label="Ir al inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="menu-principal" aria-expanded="false">☰</button><nav class="nav" id="menu-principal" aria-label="Navegación principal"><a href="index.html#sobre-mi">Sobre mí</a><a href="index.html#intereses">Intereses</a><a href="index.html#proyectos">Proyectos</a><a href="recorrido.html" aria-current="page" class="current-page">Recorrido</a><a href="personal.html">Personal</a><a href="herramientas.html">Herramientas</a><a href="actualidad.html">Actualidad</a><a class="nav-cta" href="index.html#enlaces">Mis enlaces <span>↗</span></a></nav></header><main><section class="page-hero section-wrap"><div class="page-label">↗ 04 / MI RECORRIDO</div><h1>Un camino que<br><span class="gradient-text">sigue avanzando.</span></h1><p>Mi recorrido no es una lista cerrada de títulos: es una historia de aprendizaje, experiencias compartidas e ideas que van tomando forma. Pulsa cada etapa de la línea temporal para descubrir qué representa en mi camino.</p></section><section class="page-content section-wrap"><div class="timeline-explorer"><div class="timeline-nav" role="group" aria-label="Etapas de mi recorrido"><button class="timeline-choice" data-stage="scouts" aria-pressed="false"><span class="timeline-node"></span><span><small>DESDE LOS 11 AÑOS</small><b>Experiencia Scout</b></span></button><button class="timeline-choice" data-stage="dam" aria-pressed="true"><span class="timeline-node"></span><span><small>FORMACIÓN ACTUAL</small><b>Desarrollo de Aplicaciones Multiplataforma</b></span></button><button class="timeline-choice" data-stage="projects" aria-pressed="false"><span class="timeline-node"></span><span><small>APRENDER HACIENDO</small><b>Proyectos personales</b></span></button><button class="timeline-choice" data-stage="tfg" aria-pressed="false"><span class="timeline-node"></span><span><small>ETAPA ACTUAL</small><b>Impeesa Connect · TFG</b></span></button><button class="timeline-choice" data-stage="future" aria-pressed="false"><span class="timeline-node"></span><span><small>PRÓXIMO PASO</small><b>Prácticas y experiencia profesional</b></span></button></div><article class="page-card timeline-detail" aria-live="polite"><div class="detail-top"><span class="detail-year" id="timeline-period">ACTUALIDAD · ÚLTIMO AÑO</span><span class="page-number" id="timeline-counter">ETAPA 02 / 05</span></div><h2 id="timeline-title">Desarrollo de Aplicaciones Multiplataforma</h2><p id="timeline-description">Estoy cursando el último año de DAM, reforzando mi base técnica y aprendiendo a desarrollar aplicaciones con una visión más completa: desde la lógica y los datos hasta la experiencia de uso.</p><ul id="timeline-points"><li>Consolidar conocimientos de programación.</li><li>Diseñar y desarrollar aplicaciones funcionales.</li><li>Aprender a documentar, probar y mejorar soluciones.</li></ul><span class="detail-badge" id="timeline-badge">EN CURSO</span><span class="timeline-watermark" aria-hidden="true">02</span></article></div><div class="page-callout"><div><h3>Cada etapa me aporta algo distinto.</h3><p>La formación me da herramientas, los proyectos me permiten ponerlas en práctica y las experiencias compartidas me enseñan a trabajar con otras personas.</p></div><a class="button button-ghost" href="actualidad.html">Qué estoy haciendo ahora <span>↗</span></a></div></section><script>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#160d25">
+        <meta name="description" content="Línea temporal interactiva de la formación, experiencia Scout, proyectos personales y próximos pasos de Ruth Sainz.">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Mi recorrido | Ruth Sainz">
+        <meta property="og:description" content="Línea temporal interactiva de la formación, experiencia Scout, proyectos personales y próximos pasos de Ruth Sainz.">
+        <meta property="og:image" content="https://rutsaisan.github.io/Mi-PaginaWeb/img/og-preview.png">
+        <title>
+            Mi recorrido | Ruth Sainz
+        </title>
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="ambient ambient-one">
+        </div>
+        <div class="ambient ambient-two">
+        </div>
+        <header class="topbar">
+            <a class="brand" href="index.html#inicio" aria-label="Ir al inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="menu-principal" aria-expanded="false">☰</button>
+            <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+                <a href="index.html#sobre-mi">Sobre mí</a><a href="index.html#intereses">Intereses</a><a href="index.html#proyectos">Proyectos</a><a href="recorrido.html" aria-current="page" class="current-page">Recorrido</a><a href="personal.html">Personal</a><a href="herramientas.html">Herramientas</a><a href="actualidad.html">Actualidad</a><a class="nav-cta" href="index.html#enlaces">Mis enlaces <span>↗</span></a>
+            </nav>
+        </header>
+        <main>
+            <section class="page-hero section-wrap">
+                <div class="page-label">
+                    ↗ 04 / MI RECORRIDO
+                </div>
+                <h1>
+                    Un camino que<br><span class="gradient-text">sigue avanzando.</span>
+                </h1>
+                <p>
+                    Mi recorrido no es una lista cerrada de títulos: es una historia de aprendizaje, experiencias compartidas e ideas que van tomando forma. Pulsa cada etapa de la línea temporal para descubrir qué representa en mi camino.
+                </p>
+            </section>
+            <section class="page-content section-wrap">
+                <div class="timeline-explorer">
+                    <div class="timeline-nav" role="group" aria-label="Etapas de mi recorrido">
+                        <button class="timeline-choice" data-stage="scouts" aria-pressed="false"><span class="timeline-node"></span><span><small>DESDE LOS 11 AÑOS</small><b>Experiencia Scout</b></span></button><button class="timeline-choice" data-stage="dam" aria-pressed="true"><span class="timeline-node"></span><span><small>FORMACIÓN ACTUAL</small><b>Desarrollo de Aplicaciones Multiplataforma</b></span></button><button class="timeline-choice" data-stage="projects" aria-pressed="false"><span class="timeline-node"></span><span><small>APRENDER HACIENDO</small><b>Proyectos personales</b></span></button><button class="timeline-choice" data-stage="tfg" aria-pressed="false"><span class="timeline-node"></span><span><small>ETAPA ACTUAL</small><b>Impeesa Connect · TFG</b></span></button><button class="timeline-choice" data-stage="future" aria-pressed="false"><span class="timeline-node"></span><span><small>PRÓXIMO PASO</small><b>Prácticas y experiencia profesional</b></span></button>
+                    </div>
+                    <article class="page-card timeline-detail" aria-live="polite">
+                        <div class="detail-top">
+                            <span class="detail-year" id="timeline-period">ACTUALIDAD · ÚLTIMO AÑO</span><span class="page-number" id="timeline-counter">ETAPA 02 / 05</span>
+                        </div>
+                        <h2 id="timeline-title">
+                            Desarrollo de Aplicaciones Multiplataforma
+                        </h2>
+                        <p id="timeline-description">
+                            Estoy cursando el último año de DAM, reforzando mi base técnica y aprendiendo a desarrollar aplicaciones con una visión más completa: desde la lógica y los datos hasta la experiencia de uso.
+                        </p>
+                        <ul id="timeline-points">
+                            <li>
+                                Consolidar conocimientos de programación.
+                            </li>
+                            <li>
+                                Diseñar y desarrollar aplicaciones funcionales.
+                            </li>
+                            <li>
+                                Aprender a documentar, probar y mejorar soluciones.
+                            </li>
+                        </ul>
+                        <span class="detail-badge" id="timeline-badge">EN CURSO</span><span class="timeline-watermark" aria-hidden="true">02</span>
+                    </article>
+                </div>
+                <div class="page-callout">
+                    <div>
+                        <h3>
+                            Cada etapa me aporta algo distinto.
+                        </h3>
+                        <p>
+                            La formación me da herramientas, los proyectos me permiten ponerlas en práctica y las experiencias compartidas me enseñan a trabajar con otras personas.
+                        </p>
+                    </div>
+                    <a class="button button-ghost" href="actualidad.html">Qué estoy haciendo ahora <span>↗</span></a>
+                </div>
+            </section>
+            <script>
 const stages={scouts:{period:'DESDE LOS 11 AÑOS',title:'Una parte importante de mi vida: Scouts',description:'Formar parte del movimiento Scout me ha permitido aprender también fuera del aula. Es una experiencia que conecta convivencia, compromiso, organización y aprendizaje en grupo.',points:['Colaborar y participar en actividades compartidas.','Desarrollar autonomía y sentido de responsabilidad.','Aprender de experiencias prácticas y del trabajo en equipo.'],badge:'EXPERIENCIA PERSONAL'},dam:{period:'ACTUALIDAD · ÚLTIMO AÑO',title:'Desarrollo de Aplicaciones Multiplataforma',description:'Estoy cursando el último año de DAM, reforzando mi base técnica y aprendiendo a desarrollar aplicaciones con una visión más completa: desde la lógica y los datos hasta la experiencia de uso.',points:['Consolidar conocimientos de programación.','Diseñar y desarrollar aplicaciones funcionales.','Aprender a documentar, probar y mejorar soluciones.'],badge:'EN CURSO'},projects:{period:'EN PARALELO A LA FORMACIÓN',title:'Aprender haciendo: proyectos personales',description:'Mis proyectos me ayudan a experimentar con tecnologías, practicar la resolución de problemas y descubrir cómo convertir una idea en algo que otras personas puedan utilizar.',points:['JARVIS: asistente personal en evolución.','Beat Blueprint: idea para organizar recursos de baile.','Swell Traker: concepto relacionado con surf y condiciones de los spots.'],badge:'EXPLORACIÓN Y PRÁCTICA'},tfg:{period:'ETAPA ACTUAL · PROYECTO ACADÉMICO',title:'Impeesa Connect · mi TFG',description:'Estoy desarrollando la propuesta de una aplicación pensada para facilitar la organización y comunicación del grupo Scout. El objetivo es reunir en un mismo lugar funciones que respondan a necesidades reales.',points:['Calendario compartido y recordatorios.','Espacio para fotografías y recursos del grupo.','Documentación, análisis de necesidades y planificación.'],badge:'EN DEFINICIÓN Y DESARROLLO'},future:{period:'SIGUIENTE PASO',title:'Prácticas y experiencia profesional',description:'Quiero aplicar lo aprendido en un entorno real, conocer cómo trabaja un equipo de desarrollo y seguir creciendo a partir de nuevos retos y del feedback de otras personas.',points:['Trasladar los conocimientos del ciclo a tareas reales.','Aprender procesos de trabajo y colaboración.','Identificar las áreas técnicas en las que quiero profundizar.'],badge:'PRÓXIMO OBJETIVO'}};
 const choices=[...document.querySelectorAll('.timeline-choice')];function setStage(key){const d=stages[key];if(!d)return;choices.forEach((b,i)=>b.setAttribute('aria-pressed',String(b.dataset.stage===key)));document.querySelector('#timeline-period').textContent=d.period;document.querySelector('#timeline-title').textContent=d.title;document.querySelector('#timeline-description').textContent=d.description;document.querySelector('#timeline-points').replaceChildren(...d.points.map(p=>{const li=document.createElement('li');li.textContent=p;return li}));document.querySelector('#timeline-badge').textContent=d.badge;document.querySelector('#timeline-counter').textContent=`ETAPA ${String(choices.findIndex(b=>b.dataset.stage===key)+1).padStart(2,'0')} / ${String(choices.length).padStart(2,'0')}`;document.querySelector('.timeline-watermark').textContent=String(choices.findIndex(b=>b.dataset.stage===key)+1).padStart(2,'0')}choices.forEach(b=>b.addEventListener('click',()=>setStage(b.dataset.stage)));
-</script></main><footer class="footer"><a class="brand" href="index.html#inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><span>Hecha con curiosidad y un toque de morado <span class="footer-heart" aria-hidden="true">♥</span></span><a href="index.html#inicio" class="back-top">VOLVER AL INICIO ↑</a></footer><script src="script.js"></script></body></html>
+</script>
+        </main>
+        <footer class="footer">
+            <a class="brand" href="index.html#inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><span>Hecha con curiosidad y un toque de morado <span class="footer-heart" aria-hidden="true">♥</span></span><a href="index.html#inicio" class="back-top">VOLVER AL INICIO ↑</a>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
