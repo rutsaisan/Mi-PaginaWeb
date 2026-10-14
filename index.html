@@ -1,106 +1,110 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#160d25">
-  <meta name="description" content="Web personal de Ruth: formación en DAM, programación, proyectos e intereses tecnológicos.">
-  <title>Mi web | Ruth Sainz</title>
-  <link rel="icon" href="img/favicon.png" type="imagen/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#160d25" name="theme-color"/>
+<meta content="Soy Ruth, estudiante de Desarrollo de Aplicaciones Multiplataforma. Aquí comparto mis intereses en programación, tecnología y creatividad, además de mi recorrido y proyectos." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Mi web | Ruth Sainz" property="og:title"/>
+<meta content="Programación, tecnología y creatividad. Conoce mis intereses, mi formación y lo que estoy aprendiendo." property="og:description"/>
+<meta content="https://rutsaisan.github.io/Mi-PaginaWeb/" property="og:url"/>
+<meta content="https://rutsaisan.github.io/Mi-PaginaWeb/img/og-preview.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Mi web personal de Ruth Sainz, en tonos morados" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Mi web | Ruth Sainz" name="twitter:title"/>
+<meta content="Programación, tecnología y creatividad." name="twitter:description"/>
+<meta content="https://rutsaisan.github.io/Mi-PaginaWeb/img/og-preview.png" name="twitter:image"/>
+<title>Mi web | Ruth Sainz</title>
+<link href="img/favicon.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a>
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Navegación principal">
-      <a href="#sobre-mi">Sobre mí</a><a href="#intereses">Intereses</a><a href="#proyectos">Proyectos</a><a href="#formacion">Formación</a>
-      <a class="nav-cta" href="#enlaces">Mis enlaces <span>↗</span></a>
-    </nav>
-  </header>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="topbar">
+<a aria-label="Ir al inicio" class="brand" href="#inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a>
+<button aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle" type="button">☰</button>
+<nav aria-label="Navegación principal" class="nav" id="menu-principal"><a href="index.html#sobre-mi">Sobre mí</a><a href="index.html#intereses">Intereses</a><a href="index.html#proyectos">Proyectos</a><a href="recorrido.html">Recorrido</a><a href="personal.html">Personal</a><a href="herramientas.html">Herramientas</a><a href="actualidad.html">Actualidad</a><a class="nav-cta" href="index.html#enlaces">Mis enlaces <span>↗</span></a></nav>
+</header>
+<main>
+<section class="hero section-wrap" id="inicio">
+<div class="hero-copy">
+<div class="eyebrow"><span class="status-dot"></span> ESTUDIANTE DE DAM · EN CONSTANTE APRENDIZAJE</div>
+<h1>Hola, soy Ruth.<br/>Me gusta crear<br/><span class="gradient-text">cosas con código.</span></h1>
+<p class="hero-lead">Exploro el mundo de la programación, diseño ideas y convierto problemas en proyectos. Esta es mi pequeña esquina de Internet.</p>
+<div class="hero-actions">
+<a class="button button-primary" href="#intereses">Explorar mis intereses <span>↓</span></a>
+<a class="button button-ghost" href="https://rutsaisan.github.io/Portafolio/" rel="noopener" target="_blank">Ver portafolio <span>↗</span></a>
+</div>
+<div class="hero-meta"><span><i></i> Desarrollo de Aplicaciones Multiplataforma</span><span class="meta-separator">✦</span><span>Valencia, España</span></div>
+</div>
+<div aria-label="Ilustración decorativa de código" class="hero-art">
+<div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+<div class="floating-chip chip-top"><span class="chip-icon">✳</span> curiosidad.exe</div>
+<div class="code-window">
+<div class="window-bar"><div class="window-dots"><b></b><b></b><b></b></div><span>ruth.js</span><span class="window-lock">⌘</span></div>
+<div class="code-content">
+<div><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-pink">ruth</span> = {</div>
+<div><span class="line-no">02</span>  aprendiendo: <span class="code-green">true</span>,</div>
+<div><span class="line-no">03</span>  creatividad: <span class="code-green">"∞"</span>,</div>
+<div><span class="line-no">04</span>  objetivo: <span class="code-yellow">"crear"</span>,</div>
+<div><span class="line-no">05</span>  modo: <span class="code-yellow">"construir"</span></div>
+<div><span class="line-no">06</span>};</div>
+<div class="code-spacer"></div>
+<div><span class="line-no">07</span><span class="code-muted">// siempre hay algo nuevo</span></div>
+<div><span class="line-no">08</span><span class="code-purple">while</span> (curiosidad) {</div>
+<div><span class="line-no">09</span>  seguirAprendiendo(); <span class="cursor"></span></div>
+<div><span class="line-no">10</span>}</div>
+</div>
+</div>
+<div class="floating-chip chip-bottom"><span class="pulse-icon">✦</span> ideas en construcción</div>
+<div class="hero-spark spark-one">✦</div><div class="hero-spark spark-two">✧</div>
+</div>
+<a class="scroll-hint" href="#sobre-mi"><span class="scroll-line"></span> DESLIZA PARA EXPLORAR</a>
+</section>
 
-  <main>
-    <section class="hero section-wrap" id="inicio">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> ESTUDIANTE DE DAM · EN CONSTANTE APRENDIZAJE</div>
-        <h1>Hola, soy Ruth.<br>Me gusta crear<br><span class="gradient-text">cosas con código.</span></h1>
-        <p class="hero-lead">Exploro el mundo de la programación, diseño ideas y convierto problemas en proyectos. Esta es mi pequeña esquina de Internet.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#proyectos">Explorar mis intereses <span>↓</span></a>
-          <a class="button button-ghost" href="https://rutsaisan.github.io/Portafolio/" target="_blank" rel="noopener">Ver portafolio <span>↗</span></a>
-        </div>
-        <div class="hero-meta"><span><i></i> Desarrollo de Aplicaciones Multiplataforma</span><span class="meta-separator">✦</span><span>Valencia, España</span></div>
-      </div>
-      <div class="hero-art" aria-label="Ilustración decorativa de código">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="floating-chip chip-top"><span class="chip-icon">✳</span> curiosidad.exe</div>
-        <div class="code-window">
-          <div class="window-bar"><div class="window-dots"><b></b><b></b><b></b></div><span>ruth.js</span><span class="window-lock">⌘</span></div>
-          <div class="code-content">
-            <div><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-pink">ruth</span> = {</div>
-            <div><span class="line-no">02</span>&nbsp;&nbsp;aprendiendo: <span class="code-green">true</span>,</div>
-            <div><span class="line-no">03</span>&nbsp;&nbsp;creatividad: <span class="code-green">"∞"</span>,</div>
-            <div><span class="line-no">04</span>&nbsp;&nbsp;objetivo: <span class="code-yellow">"crear"</span>,</div>
-            <div><span class="line-no">05</span>&nbsp;&nbsp;modo: <span class="code-yellow">"construir"</span></div>
-            <div><span class="line-no">06</span>};</div>
-            <div class="code-spacer"></div>
-            <div><span class="line-no">07</span><span class="code-muted">// siempre hay algo nuevo</span></div>
-            <div><span class="line-no">08</span><span class="code-purple">while</span> (curiosidad) {</div>
-            <div><span class="line-no">09</span>&nbsp;&nbsp;seguirAprendiendo(); <span class="cursor"></span></div>
-            <div><span class="line-no">10</span>}</div>
-          </div>
-        </div>
-        <div class="floating-chip chip-bottom"><span class="pulse-icon">✦</span> ideas en construcción</div>
-        <div class="hero-spark spark-one">✦</div><div class="hero-spark spark-two">✧</div>
-      </div>
-      <a class="scroll-hint" href="#sobre-mi"><span class="scroll-line"></span> DESLIZA PARA EXPLORAR</a>
-    </section>
+\n    <section class="intro-section section-wrap reveal" id="sobre-mi">
+<div class="section-kicker">01 / UN POCO SOBRE MÍ</div>
+<div class="intro-grid">
+<h2>La tecnología es<br/>mi forma de <span class="gradient-text">explorar.</span></h2>
+<div class="intro-copy"><p>Actualmente estoy cursando el último año de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>. Me interesa aprender cómo funcionan las cosas por dentro y darles forma hasta convertirlas en algo útil, bonito y fácil de utilizar.</p><p>Me gusta combinar la parte lógica de la programación con la creatividad del diseño. Por eso, aquí encontrarás tanto mis intereses tecnológicos como proyectos que nacen de las cosas que me apasionan.</p></div>
+</div>
+<div class="value-strip"><div><span class="value-symbol">⌘</span><span><b>Aprender haciendo</b><small>Probar, investigar y mejorar.</small></span></div><div><span class="value-symbol">✳</span><span><b>Creatividad</b><small>Ideas con personalidad propia.</small></span></div><div><span class="value-symbol">↗</span><span><b>Mirada al futuro</b><small>Siempre hay algo nuevo que explorar.</small></span></div></div>
+</section>
+<section class="interests-section reveal" id="intereses">
+<div class="section-wrap">
+<div class="section-heading"><div><div class="section-kicker">02 / LO QUE ME MUEVE</div><h2>Mis intereses<span class="gradient-text"> digitales.</span></h2></div><p>Áreas que me inspiran, tecnologías que quiero seguir explorando y mundos donde me gustaría crear.</p></div>
+<div class="interest-grid">
+<article class="interest-card interest-featured"><div class="card-top"><span class="interest-icon">{ }</span><span class="card-index">01</span></div><h3>Desarrollo de software</h3><p>Me interesa crear aplicaciones que resuelvan necesidades reales, desde la idea inicial hasta los detalles de implementación.</p><div class="tag-row"><span>Programación</span><span>Lógica</span><span>Aplicaciones</span></div><div class="card-decoration">&lt;/&gt;</div></article>
+<article class="interest-card"><div class="card-top"><span class="interest-icon">◈</span><span class="card-index">02</span></div><h3>Diseño web y UI</h3><p>Diseñar experiencias digitales claras, intuitivas y visualmente cuidadas, donde la estética también tenga sentido.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>UX/UI</span></div></article>
+<article class="interest-card"><div class="card-top"><span class="interest-icon">⌘</span><span class="card-index">03</span></div><h3>Inteligencia artificial</h3><p>Me llama la atención cómo la IA puede ayudar a automatizar tareas y dar lugar a asistentes personales más útiles.</p><div class="tag-row"><span>IA</span><span>Automatización</span></div></article>
+<article class="interest-card"><div class="card-top"><span class="interest-icon">▣</span><span class="card-index">04</span></div><h3>Videojuegos</h3><p>Me encantan los videojuegos y me interesa la tecnología que hay detrás de sus mundos, sistemas e interfaces.</p><div class="tag-row"><span>Gaming</span><span>Desarrollo</span></div></article>
+<article class="interest-card"><div class="card-top"><span class="interest-icon">✦</span><span class="card-index">05</span></div><h3>Proyectos creativos</h3><p>Disfruto conectando la programación con otras aficiones, como el baile, la fotografía y las ideas que merecen convertirse en algo real.</p><div class="tag-row"><span>Creatividad</span><span>Ideas propias</span></div></article>
+<article class="interest-card interest-note"><div class="note-stars">✳ ✧ ✦</div><p>Mi objetivo no es dejar de aprender cuando algo funciona, sino descubrir cómo hacerlo <em>todavía mejor.</em></p><span class="note-signature">— mentalidad en construcción</span></article>
+</div>
+</div>
+</section>
 
-    <section class="intro-section section-wrap" id="sobre-mi">
-      <div class="section-kicker">01 / UN POCO SOBRE MÍ</div>
-      <div class="intro-grid">
-        <h2>La tecnología es<br>mi forma de <span class="gradient-text">explorar.</span></h2>
-        <div class="intro-copy"><p>Actualmente estoy cursando el último año de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>. Me interesa aprender cómo funcionan las cosas por dentro y darles forma hasta convertirlas en algo útil, bonito y fácil de utilizar.</p><p>Me gusta combinar la parte lógica de la programación con la creatividad del diseño. Por eso, aquí encontrarás tanto mis intereses tecnológicos como proyectos que nacen de las cosas que me apasionan.</p></div>
-      </div>
-      <div class="value-strip"><div><span class="value-symbol">⌘</span><span><b>Aprender haciendo</b><small>Probar, investigar y mejorar.</small></span></div><div><span class="value-symbol">✳</span><span><b>Creatividad</b><small>Ideas con personalidad propia.</small></span></div><div><span class="value-symbol">↗</span><span><b>Mirada al futuro</b><small>Siempre hay algo nuevo que explorar.</small></span></div></div>
-    </section>
 
-    <section class="interests-section" id="intereses">
-      <div class="section-wrap">
-        <div class="section-heading"><div><div class="section-kicker">02 / LO QUE ME MUEVE</div><h2>Mis intereses<span class="gradient-text"> digitales.</span></h2></div><p>Áreas que me inspiran, tecnologías que quiero seguir explorando y mundos donde me gustaría crear.</p></div>
-        <div class="interest-grid">
-          <article class="interest-card interest-featured"><div class="card-top"><span class="interest-icon">{ }</span><span class="card-index">01</span></div><h3>Desarrollo de software</h3><p>Me interesa crear aplicaciones que resuelvan necesidades reales, desde la idea inicial hasta los detalles de implementación.</p><div class="tag-row"><span>Programación</span><span>Lógica</span><span>Aplicaciones</span></div><div class="card-decoration">&lt;/&gt;</div></article>
-          <article class="interest-card"><div class="card-top"><span class="interest-icon">◈</span><span class="card-index">02</span></div><h3>Diseño web y UI</h3><p>Diseñar experiencias digitales claras, intuitivas y visualmente cuidadas, donde la estética también tenga sentido.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>UX/UI</span></div></article>
-          <article class="interest-card"><div class="card-top"><span class="interest-icon">⌘</span><span class="card-index">03</span></div><h3>Inteligencia artificial</h3><p>Me llama la atención cómo la IA puede ayudar a automatizar tareas y dar lugar a asistentes personales más útiles.</p><div class="tag-row"><span>IA</span><span>Automatización</span></div></article>
-          <article class="interest-card"><div class="card-top"><span class="interest-icon">▣</span><span class="card-index">04</span></div><h3>Videojuegos</h3><p>Me encantan los videojuegos y me interesa la tecnología que hay detrás de sus mundos, sistemas e interfaces.</p><div class="tag-row"><span>Gaming</span><span>Desarrollo</span></div></article>
-          <article class="interest-card"><div class="card-top"><span class="interest-icon">✦</span><span class="card-index">05</span></div><h3>Proyectos creativos</h3><p>Disfruto conectando la programación con otras aficiones, como el baile, la fotografía y las ideas que merecen convertirse en algo real.</p><div class="tag-row"><span>Creatividad</span><span>Ideas propias</span></div></article>
-          <article class="interest-card interest-note"><div class="note-stars">✳ ✧ ✦</div><p>Mi objetivo no es dejar de aprender cuando algo funciona, sino descubrir cómo hacerlo <em>todavía mejor.</em></p><span class="note-signature">— mentalidad en construcción</span></article>
-        </div>
-      </div>
-    </section>
+\n    <section class="projects-section section-wrap reveal" id="proyectos">
+<div class="section-heading"><div><div class="section-kicker">03 / IDEAS QUE TOMAN FORMA</div><h2>Aprender también es <span class="gradient-text">crear.</span></h2></div><p>Algunos proyectos personales y académicos en los que trabajo o que me gustaría seguir desarrollando.</p></div>
+<div class="project-list">
+<article class="project-row"><div class="project-number">01</div><div class="project-symbol symbol-purple">IC<span>✳</span></div><div class="project-info"><div class="project-label">PROYECTO ACADÉMICO · TFG</div><h3>Impeesa Connect</h3><p>Una idea de aplicación para facilitar la organización y comunicación de un grupo Scout: calendario, avisos, fotografías y recursos compartidos.</p><div class="tag-row"><span>Gestión</span><span>Aplicaciones</span><span>Comunidad</span></div></div><div class="project-arrow">↗</div></article>
+<article class="project-row"><div class="project-number">02</div><div class="project-symbol symbol-pink">J<span>⌘</span></div><div class="project-info"><div class="project-label">PROYECTO PERSONAL</div><h3>JARVIS</h3><p>Un asistente personal inspirado en la ciencia ficción, con conversación, memoria, búsqueda por Internet y automatización del ordenador.</p><div class="tag-row"><span>Python</span><span>IA</span><span>Automatización</span></div></div><div class="project-arrow">↗</div></article>
+<article class="project-row"><div class="project-number">03</div><div class="project-symbol symbol-blue">BB<span>♫</span></div><div class="project-info"><div class="project-label">IDEA CREATIVA</div><h3>Beat Blueprint</h3><p>Una herramienta conceptual para organizar canciones, planificar formaciones de baile y reunir vídeos y vocabulario de pasos.</p><div class="tag-row"><span>PHP</span><span>MySQL</span><span>Baile</span></div></div><div class="project-arrow">↗</div></article>
+</div>
+<div class="projects-footer"><span>¿Quieres conocer los proyectos con más detalle?</span><a class="text-link" href="https://rutsaisan.github.io/Portafolio/" rel="noopener" target="_blank">Visita mi portafolio <span>↗</span></a></div>
+</section>
 
-    <section class="projects-section section-wrap" id="proyectos">
-      <div class="section-heading"><div><div class="section-kicker">03 / IDEAS QUE TOMAN FORMA</div><h2>Aprender también es <span class="gradient-text">crear.</span></h2></div><p>Algunos proyectos personales y académicos en los que trabajo o que me gustaría seguir desarrollando.</p></div>
-      <div class="project-list">
-        <article class="project-row"><div class="project-number">01</div><div class="project-symbol symbol-purple">IC<span>✳</span></div><div class="project-info"><div class="project-label">PROYECTO ACADÉMICO · TFG</div><h3>Impeesa Connect</h3><p>Una idea de aplicación para facilitar la organización y comunicación de un grupo Scout: calendario, avisos, fotografías y recursos compartidos.</p><div class="tag-row"><span>Gestión</span><span>Aplicaciones</span><span>Comunidad</span></div></div><div class="project-arrow">↗</div></article>
-        <article class="project-row"><div class="project-number">02</div><div class="project-symbol symbol-pink">J<span>⌘</span></div><div class="project-info"><div class="project-label">PROYECTO PERSONAL</div><h3>JARVIS</h3><p>Un asistente personal inspirado en la ciencia ficción, con conversación, memoria, búsqueda por Internet y automatización del ordenador.</p><div class="tag-row"><span>Python</span><span>IA</span><span>Automatización</span></div></div><div class="project-arrow">↗</div></article>
-        <article class="project-row"><div class="project-number">03</div><div class="project-symbol symbol-blue">BB<span>♫</span></div><div class="project-info"><div class="project-label">IDEA CREATIVA</div><h3>Beat Blueprint</h3><p>Una herramienta conceptual para organizar canciones, planificar formaciones de baile y reunir vídeos y vocabulario de pasos.</p><div class="tag-row"><span>PHP</span><span>MySQL</span><span>Baile</span></div></div><div class="project-arrow">↗</div></article>
-      </div>
-      <div class="projects-footer"><span>¿Quieres conocer los proyectos con más detalle?</span><a class="text-link" href="https://rutsaisan.github.io/Portafolio/" target="_blank" rel="noopener">Visita mi portafolio <span>↗</span></a></div>
-    </section>
-
-    <section class="learning-section" id="formacion"><div class="section-wrap learning-grid">
-      <div><div class="section-kicker">04 / MI CAMINO</div><h2>En proceso de<br><span class="gradient-text">convertir ideas</span><br>en realidad.</h2><p class="learning-lead">Estoy construyendo mi base técnica y descubriendo qué tipo de desarrolladora quiero ser. Cada proyecto es una oportunidad para aprender algo nuevo.</p><a class="button button-ghost" href="https://rutsaisan.github.io/Curriculum/" target="_blank" rel="noopener">Consultar mi currículum <span>↗</span></a></div>
-      <div class="timeline"><div class="timeline-item active"><span class="timeline-point"></span><div class="timeline-date">ACTUALIDAD</div><h3>Desarrollo de Aplicaciones Multiplataforma</h3><p>Último año de DAM · formación técnica y desarrollo de proyectos.</p><span class="timeline-status"><i></i> En curso</span></div><div class="timeline-item"><span class="timeline-point"></span><div class="timeline-date">SIGUIENTE PASO</div><h3>Prácticas y experiencia profesional</h3><p>Aplicar lo aprendido, colaborar en proyectos reales y seguir creciendo como desarrolladora.</p></div><div class="timeline-item"><span class="timeline-point"></span><div class="timeline-date">SIEMPRE</div><h3>Aprendizaje continuo</h3><p>Explorar nuevas herramientas, tecnologías e ideas que despierten mi curiosidad.</p></div></div>
-    </div></section>
-
-    <section class="links-section section-wrap" id="enlaces"><div class="section-kicker">05 / ENCUÉNTRAME</div><div class="links-panel"><div><h2>¿Vemos lo que<br><span class="gradient-text">estoy creando?</span></h2><p>Si quieres conocer mejor mi trabajo o mi recorrido formativo, puedes encontrarlo aquí.</p></div><div class="link-buttons"><a href="https://rutsaisan.github.io/Portafolio/" target="_blank" rel="noopener" class="link-card"><span class="link-card-icon">▤</span><span><b>Mi portafolio</b><small>Proyectos y trabajos</small></span><span class="link-out">↗</span></a><a href="https://rutsaisan.github.io/Curriculum/" target="_blank" rel="noopener" class="link-card"><span class="link-card-icon">▣</span><span><b>Mi currículum</b><small>Formación y perfil</small></span><span class="link-out">↗</span></a><a href="https://github.com/rutsaisan" target="_blank" rel="noopener" class="link-card"><span class="link-card-icon">⌘</span><span><b>GitHub</b><small>Código y repositorios</small></span><span class="link-out">↗</span></a></div></div></section>
-  </main>
-  <footer class="footer"><a class="brand" href="#inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><span>Hecha con curiosidad y un toque de morado <span class="footer-heart">♥</span></span><a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a></footer>
-  <script src="script.js"></script>
+<section class="links-section section-wrap reveal" id="enlaces"><div class="section-kicker">04 / ENCUÉNTRAME</div><div class="links-panel"><div><h2>¿Vemos lo que<br/><span class="gradient-text">estoy creando?</span></h2><p>Si tienes una idea interesante, una oportunidad o simplemente quieres hablar de tecnología, puedes conocer mi trabajo y encontrarme a través de estos enlaces.</p><a class="contact-cta" href="https://github.com/rutsaisan" rel="noopener" target="_blank">Hablemos en GitHub <span>↗</span></a></div><div class="link-buttons"><a class="link-card" href="https://rutsaisan.github.io/Portafolio/" rel="noopener" target="_blank"><span class="link-card-icon">▤</span><span><b>Mi portafolio</b><small>Proyectos y trabajos</small></span><span class="link-out">↗</span></a><a class="link-card" href="https://rutsaisan.github.io/Curriculum/" rel="noopener" target="_blank"><span class="link-card-icon">▣</span><span><b>Mi currículum</b><small>Formación y perfil</small></span><span class="link-out">↗</span></a><a class="link-card" href="https://github.com/rutsaisan" rel="noopener" target="_blank"><span class="link-card-icon">⌘</span><span><b>GitHub</b><small>Código y repositorios</small></span><span class="link-out">↗</span></a></div></div></section>
+</main>
+<footer class="footer"><a class="brand" href="index.html#inicio"><span class="brand-mark">R<span>.</span></span><span>MI WEB<span class="brand-sub"> / RUTH SAINZ</span></span></a><span>Hecha con curiosidad y un toque de morado <span aria-hidden="true" class="footer-heart">♥</span></span><a class="back-top" href="index.html#inicio">VOLVER ARRIBA ↑</a></footer>
+<script src="script.js"></script>
 </body>
 </html>

@@ -23,7 +23,7 @@ Entre sus características visuales destacan:
 
 - **HTML5:** estructura y organización del contenido.
 - **CSS3:** estilos, diseño adaptable, colores, efectos y animaciones.
-- **JavaScript:** interactividad y funcionamiento del menú de navegación.
+- **JavaScript:** menú móvil y animaciones de aparición con soporte para preferencias de movimiento reducido.
 
 ## 📂 Estructura del proyecto
 
@@ -52,6 +52,15 @@ Apartado dedicado a las áreas tecnológicas y creativas que más me interesan:
 - Videojuegos.
 - Proyectos tecnológicos y creativos.
 
+### ✨ Más allá del código
+Un espacio para mostrar otras facetas e intereses personales: fotografía, baile, videojuegos, Scouts y literatura.
+
+### 🧰 Mi caja de herramientas
+Resumen de tecnologías utilizadas en proyectos —HTML, CSS, JavaScript, Python, PHP y MySQL— y temas que quiero seguir explorando, como IA aplicada, UX/UI y automatización.
+
+### 🌱 Ahora mismo
+Una tarjeta que resume la etapa actual: terminando DAM, preparando el siguiente paso profesional y desarrollando proyectos personales.
+
 ### 🚀 Mis proyectos
 Presentación de algunos de mis proyectos personales y académicos:
 
@@ -61,6 +70,9 @@ Presentación de algunos de mis proyectos personales y académicos:
 
 ### 🎓 Mi formación
 Sección dedicada a mi formación actual en Desarrollo de Aplicaciones Multiplataforma (DAM), mis objetivos profesionales y mi interés por continuar aprendiendo.
+
+### 🧭 Mi recorrido
+Una línea temporal de la formación actual, las prácticas como siguiente paso y el aprendizaje continuo.
 
 ### 🔗 Mis enlaces
 Acceso directo a mis principales perfiles y documentos profesionales:
@@ -107,3 +119,27 @@ Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM), interesada en la
 ---
 
 💜 *Un espacio personal para compartir lo que aprendo, desarrollar nuevas ideas y seguir creciendo en el mundo de la tecnología.*
+
+
+## ♿ Accesibilidad y experiencia de uso
+
+- Navegación adaptable a móviles con estado accesible (`aria-expanded` y `aria-controls`).
+- Indicadores de foco visibles para navegar con teclado.
+- Animaciones suaves al desplazarse por la página.
+- Respeto por la preferencia del sistema para reducir movimiento.
+- Diseño adaptable para móvil, tablet y escritorio.
+
+## 🔎 SEO y compartir
+
+La página incluye descripción y metadatos Open Graph/Twitter, además de una imagen de vista previa en `img/og-preview.png`. Los enlaces de vista previa están configurados para el repositorio `Mi-PaginaWeb`; si publicas la web bajo otra URL, actualiza las URL absolutas de `og:url`, `og:image` y `twitter:image` en `index.html`.
+
+
+## Páginas
+
+- `index.html`: página principal con presentación, intereses digitales, proyectos y enlaces.
+- `personal.html`: intereses personales más allá de la programación.
+- `herramientas.html`: catálogo interactivo de tecnologías con filtros y panel de detalle.
+- `actualidad.html`: etapa actual, TFG, proyectos personales y próximos objetivos.
+- `recorrido.html`: línea temporal interactiva con etapas seleccionables.
+
+Todas las páginas comparten `styles.css`, `script.js` y la navegación principal.
