@@ -143,3 +143,12 @@ La página incluye descripción y metadatos Open Graph/Twitter, además de una i
 - `recorrido.html`: línea temporal interactiva con etapas seleccionables.
 
 Todas las páginas comparten `styles.css`, `script.js` y la navegación principal.
+
+
+## 🖼️ Personalizar el logo
+
+El logo que aparece junto a “Mi web” en la cabecera está en `img/logo.png`. Para poner tu propia imagen, sustituye ese archivo por tu logo manteniendo exactamente el nombre `logo.png`. Se recomienda una imagen cuadrada (PNG o WebP); si utilizas otro formato, cambia también la ruta en los archivos HTML.
+
+## 📷 Páginas de intereses personales
+
+En `personal.html`, cada tarjeta abre una página individual con una fotografía destacada y una explicación más amplia: `personal-fotografia.html`, `personal-baile.html`, `personal-videojuegos.html`, `personal-scouts.html`, `personal-literatura.html` y `personal-creatividad.html`. Las fotografías actuales se cargan desde Unsplash, por lo que necesitan conexión a Internet. Puedes cambiar sus direcciones en el atributo `src` de cada imagen.
