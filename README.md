@@ -4,7 +4,7 @@
 
 **Mi web** es una página personal desarrollada para presentar mis intereses relacionados con la informática y la programación, mi formación actual en **Desarrollo de Aplicaciones Multiplataforma (DAM)** y algunos de los proyectos en los que trabajo.
 
-El objetivo es disponer de un espacio propio en Internet donde compartir mi evolución como desarrolladora, mostrar mis intereses tecnológicos y facilitar el acceso a mi portafolio y currículum.
+El objetivo es disponer de un espacio propio en Internet que reúna mis intereses, aficiones, forma de ver el mundo y etapa actual. No pretende sustituir mi portafolio: incluye un enlace a él como recurso aparte.
 
 ## 🎨 Diseño e identidad visual
 
@@ -43,7 +43,7 @@ Presentación personal con una introducción a mi perfil, mi formación y mis in
 ### 👩‍💻 Sobre mí
 Información sobre mi trayectoria formativa, mi forma de entender la tecnología y mi interés por combinar programación y creatividad.
 
-### 💡 Mis intereses
+### 🌙 La persona detrás de la pantalla\nUna sección en la página de inicio que conecta curiosidad, creatividad, experiencias compartidas y aficiones, para que la web sea una presentación personal completa y no solo tecnológica.\n\n### 💡 Mis intereses
 Apartado dedicado a las áreas tecnológicas y creativas que más me interesan:
 
 - Desarrollo de software.

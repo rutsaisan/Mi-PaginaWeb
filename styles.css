@@ -453,6 +453,70 @@ button {
     font-size:10px;
     margin-top:3px
 }
+
+/* Sección personal: da espacio a la persona detrás de la tecnología. */
+.about-me-section {
+    padding: 96px 0 100px;
+}
+.identity-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 14px;
+}
+.identity-card {
+    min-height: 205px;
+    padding: 25px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: linear-gradient(145deg, #21162f, #191122);
+    transition: transform .2s ease, border-color .2s ease;
+}
+.identity-card:hover {
+    transform: translateY(-3px);
+    border-color: #79519e;
+}
+.identity-card-main {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(ellipse at top left, #38214e 0%, #21152f 62%, #191122 100%);
+    border-color: #67458c;
+}
+.identity-mark {
+    color: #d0aaff;
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+.identity-label {
+    color: #bba0df;
+    font: 9px var(--mono);
+    letter-spacing: 1.5px;
+}
+.identity-card h3 {
+    font-size: 17px;
+    margin: 12px 0 8px;
+    letter-spacing: -.4px;
+}
+.identity-card-main h3 {
+    font-size: clamp(23px, 2.6vw, 31px);
+    line-height: 1.25;
+}
+.identity-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.9;
+}
+.identity-emoji {
+    color: #c7a3ff;
+    font-size: 24px;
+}
+.identity-more {
+    display: inline-flex;
+    margin-top: 24px;
+}
+
 .interests-section {
     padding:95px 0 105px;
     background:linear-gradient(180deg,#191025 0%,#140d1e 100%);
@@ -872,7 +936,7 @@ button {
         max-width:500px
     }
 }
-@media(max-width:650px) {
+@media(max-width:650px) {\n    .about-me-section { padding:70px 0 75px }\n    .identity-grid { grid-template-columns:1fr; gap:11px }\n    .identity-card-main { grid-column:auto }\n    .identity-card { min-height:0; padding:22px }
     .topbar {
         height:70px
     }
